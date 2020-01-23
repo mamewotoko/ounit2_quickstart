@@ -2,7 +2,6 @@ dist: bionic
 sudo: required
 
 install:
-  - cat /etc/lsb-release
   - bash -ex .travis-ocaml.sh
   - eval $(opam env); sh setup-opam
 
