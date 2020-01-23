@@ -1,4 +1,4 @@
-OUnit2 Quickstart with dune
+OUnit2 Quickstart with dune [![Build Status](https://travis-ci.org/mamewotoko/ounit2_quickstart.svg?branch=master)](https://travis-ci.org/mamewotoko/ounit2_quickstart)
 ===========================
 
 Build and run Test
