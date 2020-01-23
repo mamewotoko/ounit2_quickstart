@@ -1,14 +1,5 @@
-dist: xenial
+dist: bionic
 sudo: required
-addons:
-  apt:
-    sources:
-    - ppa:mc3man/trusty-media
-    packages:
-    - xvfb
-    - x11-apps
-    - imagemagick
-    - ffmpeg
 
 install:
   - cat /etc/lsb-release
