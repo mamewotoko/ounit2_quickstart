@@ -6,8 +6,7 @@ install:
   - eval $(opam env); sh setup-opam
 
 script:
-  - eval $(opam env); make
-  - opam runtest
+  - eval $(opam env); dune runtest
 
 env:
   matrix:
