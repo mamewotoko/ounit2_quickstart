@@ -29,8 +29,11 @@ OK
 
 TODO
 -----
+
+* measure code coverage with [bisect_ppx](https://github.com/rleonid/bisect_ppx)
 * HTML test report?
 * junit test report?
+
 
 References
 ------------
