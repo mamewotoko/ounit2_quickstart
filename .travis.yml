@@ -1,0 +1,29 @@
+dist: xenial
+sudo: required
+addons:
+  apt:
+    sources:
+    - ppa:mc3man/trusty-media
+    packages:
+    - xvfb
+    - x11-apps
+    - imagemagick
+    - ffmpeg
+
+install:
+  - cat /etc/lsb-release
+  - bash -ex .travis-ocaml.sh
+  - eval $(opam env); sh setup-opam
+
+script:
+  - eval $(opam env); make
+  - opam runtest
+
+env:
+  matrix:
+  - OCAML_VERSION=4.06
+  - OCAML_VERSION=4.07
+
+os:
+  - linux
+  - mac
