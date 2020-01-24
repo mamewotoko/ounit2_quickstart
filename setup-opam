@@ -1,1 +1,1 @@
-opam install ounit2 ppx_inline_test
+opam install -y ounit2 ppx_inline_test

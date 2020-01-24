@@ -1,2 +1,3 @@
 _build/
 *.cm[otx]
+.merlin
