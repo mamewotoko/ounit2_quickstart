@@ -15,4 +15,4 @@ env:
 
 os:
   - linux
-  - mac
+#  - mac
