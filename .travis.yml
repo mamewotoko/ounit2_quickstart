@@ -2,6 +2,7 @@ dist: bionic
 sudo: required
 
 install:
+  - wget https://raw.githubusercontent.com/ocaml/ocaml-ci-scripts/master/.travis-ocaml.sh
   - bash -ex .travis-ocaml.sh
   - eval $(opam env); sh setup-opam
 
