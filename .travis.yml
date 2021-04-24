@@ -2,7 +2,7 @@ dist: bionic
 sudo: required
 
 install:
-  - wget https://raw.githubusercontent.com/ocaml/ocaml-ci-scripts/master/.travis-ocaml.sh
+  - curl -fsSLO https://raw.githubusercontent.com/ocaml/ocaml-ci-scripts/master/.travis-ocaml.sh
   - bash -ex .travis-ocaml.sh
   - eval $(opam env); sh setup-opam
 
@@ -12,7 +12,7 @@ script:
 env:
   matrix:
   - OCAML_VERSION=4.06
-  - OCAML_VERSION=4.07
+  - OCAML_VERSION=4.11
 
 os:
   - linux
