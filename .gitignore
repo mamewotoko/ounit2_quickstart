@@ -1,4 +1,4 @@
 _build/
 *.cm[otx]
 .merlin
-.gitignore
+.travis-ocaml.sh
