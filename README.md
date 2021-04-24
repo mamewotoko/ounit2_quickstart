@@ -61,6 +61,7 @@ TODO
 
 References
 ------------
+* [OUnit - xUnit testing framework for OCaml](https://github.com/gildor478/ounit)
 * [src/test_list.ml](src/test_list.ml) is copied from <https://github.com/gildor478/ounit/blob/master/examples/test_list.ml>
 * [Writing and running tests — dune documentation](https://dune.readthedocs.io/en/stable/tests.html)
 
