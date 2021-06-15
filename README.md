@@ -36,7 +36,7 @@ OK
 1. set OUNIT_OUTPUT_HTML_DIR and run test
 
 ```
-mkdir -p reuslt
+mkdir -p result
 OUNIT_OUTPUT_HTML_DIR=result dune runtest
 ```
 
